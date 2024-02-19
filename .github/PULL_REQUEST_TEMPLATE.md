@@ -4,9 +4,13 @@ TODO Give a quick overview of why this pull request exists and what it achieves.
 
 # Screenshots etc.
 
-TODO If relevant, add some screenshots of before/after.
+TODO Delete this section if not applicable.
+
+TODO Add some screenshots of before/after.
 
 # Notes/cautions
+
+TODO Delete this section if not applicable.
 
 TODO Add any remarks that will be helpful for reviewers. (If inline review comments would be more helpful then please add those instead/as well.)
 
