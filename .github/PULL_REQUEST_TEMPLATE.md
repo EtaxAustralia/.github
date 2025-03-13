@@ -21,7 +21,7 @@ By marking this pull request as ready for review, I confirm that:
 * The code is production-ready.
 * The changes to the code have appropriate test coverage.
 * There is a green build for this pull request (or, at minimum, it is currently building and I _expect_ it to be green).
-* I have reviewed my own proposed changes on GitHub before asking someone else to review them, and add any relevant comments.
+* I have reviewed my own proposed changes on GitHub before asking someone else to review them, and added any relevant comments.
 * I have run a code clean-up of code I have added or modified according to the team-shared ruleset.
 * I have rebased this branch against the default branch and it is currently up to date.
 * I understand that Etax operates under a continuous deployment model, and that my changes will be automatically deployed to production when the default branch build goes green.
