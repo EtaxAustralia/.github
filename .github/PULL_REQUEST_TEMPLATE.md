@@ -8,6 +8,7 @@
   * Say what changes for the business, not which classes moved.
   * Where a set of PRs must land in order, put the position first:
         SDS-1234 [2] Do the second part of the thing
+    A stack of pull requests, each based on the one below it, is such a set.
 
   GitHub will NOT do this for you. If you don't type a title, it fills one
   from the BRANCH NAME, which turns SDS-1234 into "Sds 1234" — the hyphen in
@@ -42,8 +43,9 @@ By marking this pull request as ready for review, I confirm that:
 * The code has been written to the best of my ability and is ready for feedback.
 * The code is production-ready.
 * The changes to the code have appropriate test coverage.
-* There is a green build for this pull request (or, at minimum, it is currently building and I _expect_ it to be green).
+* Every check on this pull request is green, including each build in its chain.
 * I have reviewed my own proposed changes on GitHub before asking someone else to review them, and added any relevant comments.
-* I have run a code clean-up of code I have added or modified according to the team-shared ruleset.
-* I have rebased this branch against the default branch and it is currently up to date.
+* Every automated review finding has been fixed or answered.
+* I have left code clean-up against the team-shared ruleset to prettybot, rather than mixing reformatting into this change.
+* This branch merges into its base branch without conflicts, and contains no merge commits.
 * I understand that Etax operates under a continuous deployment model, and that my changes will be automatically deployed to production when the default branch build goes green.
