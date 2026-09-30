@@ -47,5 +47,5 @@ By marking this pull request as ready for review, I confirm that:
 * I have reviewed my own proposed changes on GitHub before asking someone else to review them, and added any relevant comments.
 * Every automated review finding has been fixed or answered.
 * I have left code clean-up against the team-shared ruleset to prettybot, rather than mixing reformatting into this change.
-* This branch merges into its base branch without conflicts, and contains no merge commits.
+* This branch is not significantly out of date with its base and can merge into its base branch without conflict as a squash commit.
 * I understand that Etax operates under a continuous deployment model, and that my changes will be automatically deployed to production when the default branch build goes green.
